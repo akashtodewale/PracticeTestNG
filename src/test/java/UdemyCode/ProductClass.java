@@ -1,3 +1,4 @@
+package UdemyCode;
 
 
 public class ProductClass  implements  Comparable<ProductClass>{
