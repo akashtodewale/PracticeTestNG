@@ -96,5 +96,6 @@
 	<classpathentry kind="lib" path="C:/Users/Dell/Documents/SELENIUM/Selenium extract/selenium-safari-driver-4.14.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Dell/Documents/SELENIUM/Selenium extract/selenium-support-4.14.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Dell/Documents/SELENIUM/Selenium extract/selenium-support-4.14.1-sources.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -5,12 +5,12 @@ package com.AutomationExercise.Utils;
 	import java.io.IOException;
 	import java.util.Properties;
 
-	public class configReader {
+	public class ConfigReader {
 	    private static Properties prop;
 
 	    public static void loadConfig() {
 	        prop = new Properties();
-	        try (FileInputStream fis = new FileInputStream("/PracticeTestNG/src/test/java/com/resources/config.properties")) {
+	        try (FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\com\\resources\\config.properties")) {
 	            prop.load(fis);
 	        } catch (IOException e) {
 	            e.printStackTrace();
