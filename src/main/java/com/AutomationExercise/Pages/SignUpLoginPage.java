@@ -16,7 +16,8 @@ public class SignUpLoginPage {
       private By LoginMenu = By.cssSelector("a[href='/login']");
 	
 	//Creating getter and setter methods to access elements -->
-      public void ClickLoginMenu() {
+      public void ClickLoginMenu() 
+      {
     	  driver.findElement(LoginMenu).click();
   	  }
         
